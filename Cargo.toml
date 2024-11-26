@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-alloy = { version = "0.6.4", features = ["full", "node-bindings", "rlp", "rpc-types-engine"] }
+alloy = { version = "0.6.4", features = ["full", "node-bindings", "rlp", "rpc-types-engine", "rpc-types-trace"] }
 ethereum-consensus = { git = "https://github.com/ralexstokes/ethereum-consensus", rev = "8fbd8a53dca0170bedeca40a92ee70fd48c4615b" }
 reth-primitives = { git = "https://github.com/paradigmxyz/reth", tag = "v1.1.2" }
 
